@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a043a56e-494b-43de-b788-590d747eb00a" name="Default" comment="" />
+    <list default="true" id="a043a56e-494b-43de-b788-590d747eb00a" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Chioma.jpg" afterPath="$PROJECT_DIR$/data/Chioma.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Diribe.jpg" afterPath="$PROJECT_DIR$/data/Diribe.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Doris.jpg" afterPath="$PROJECT_DIR$/data/Doris.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Doris_Alumona.jpg" afterPath="$PROJECT_DIR$/data/Doris_Alumona.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Gibbs.jpg" afterPath="$PROJECT_DIR$/data/Gibbs.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Jon snow.jpg" afterPath="$PROJECT_DIR$/data/Jon snow.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Kingsley.jpg" afterPath="$PROJECT_DIR$/data/Kingsley.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Nenye.jpg" afterPath="$PROJECT_DIR$/data/Nenye.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Njay.jpg" afterPath="$PROJECT_DIR$/data/Njay.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Santos.jpg" afterPath="$PROJECT_DIR$/data/Santos.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Shantel.jpg" afterPath="$PROJECT_DIR$/data/Shantel.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/TOC .jpg" afterPath="$PROJECT_DIR$/data/TOC .jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/WENDY.jpg" afterPath="$PROJECT_DIR$/data/WENDY.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/daenerys.jpg" afterPath="$PROJECT_DIR$/data/daenerys.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/emma.jpg" afterPath="$PROJECT_DIR$/data/emma.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/greg.jpg" afterPath="$PROJECT_DIR$/data/greg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lizzy.jpg" afterPath="$PROJECT_DIR$/data/lizzy.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lizzy_nysc.jpg" afterPath="$PROJECT_DIR$/data/lizzy_nysc.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/natalie .jpg" afterPath="$PROJECT_DIR$/data/natalie .jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/natalie_dormer.jpg" afterPath="$PROJECT_DIR$/data/natalie_dormer.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/promise.jpg" afterPath="$PROJECT_DIR$/data/promise.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/.gitignore" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,17 +35,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="upload.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upload.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
+                <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#326#422#0" expanded="false" />
                 <element signature="e#1179#1892#0" expanded="false" />
                 <element signature="e#2272#2421#0" expanded="false" />
                 <element signature="e#2480#2629#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,12 +95,13 @@
       <list>
         <option value="$PROJECT_DIR$/face_recognision_webcam.py" />
         <option value="$PROJECT_DIR$/upload.py" />
+        <option value="$PROJECT_DIR$/.gitignore/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
-    <option name="y" value="466" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="343" />
+    <option name="y" value="178" />
     <option name="width" value="841" />
     <option name="height" value="452" />
   </component>
@@ -93,6 +129,11 @@
               <item name="face_rec" type="b2602c69:ProjectViewProjectNode" />
               <item name="face_rec" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="face_rec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="face_rec" type="462c0819:PsiDirectoryNode" />
+              <item name=".gitignore" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,6 +146,10 @@
     <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/cv/bin/python3.5" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -184,16 +229,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="466" width="841" height="452" extended-state="0" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22711058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1398243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4520958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63583815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6351351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -202,7 +249,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -221,6 +267,7 @@
         <state relative-caret-position="18">
           <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding>
+            <element signature="e#0#9#0" expanded="true" />
             <element signature="e#326#422#0" expanded="false" />
             <element signature="e#1179#1892#0" expanded="false" />
             <element signature="e#2272#2421#0" expanded="false" />
@@ -244,6 +291,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#9#0" expanded="true" />
             <element signature="e#326#422#0" expanded="false" />
             <element signature="e#1179#1892#0" expanded="false" />
             <element signature="e#2272#2421#0" expanded="false" />
@@ -267,6 +315,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#9#0" expanded="true" />
             <element signature="e#326#422#0" expanded="false" />
             <element signature="e#1179#1892#0" expanded="false" />
             <element signature="e#2272#2421#0" expanded="false" />
@@ -307,6 +356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -322,14 +372,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
+            <element signature="e#0#9#0" expanded="true" />
             <element signature="e#326#422#0" expanded="false" />
             <element signature="e#1179#1892#0" expanded="false" />
             <element signature="e#2272#2421#0" expanded="false" />
             <element signature="e#2480#2629#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
