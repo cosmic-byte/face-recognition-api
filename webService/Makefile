@@ -18,6 +18,6 @@ tests:
 
 run:
 
-	PYTHONPATH=$(PWD) FLASK_APP=app python -m flask run -h 0.0.0.0 -p 8000
+	PYTHONPATH=$(PWD) FLASK_APP=app python3 -m flask run -h 0.0.0.0 -p 8000
 
 all: clean install tests run
