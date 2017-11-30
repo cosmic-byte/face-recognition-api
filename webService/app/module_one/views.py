@@ -77,17 +77,19 @@ def process_images(file, file2):
     unknown_face_locations = face_recognition.face_locations(unknown_image)
 
     if len(known_face_locations) == 0:
-        return '''
-                <!doctype html>
-                <title>Error Page</title>
-                <h1>No face detected on Image1</h1>
-                '''
+        result = {
+            "faces-match": face_match,
+            "error": "no face found",
+            "code": "500"
+        }
+        return jsonify(result)
     elif len(unknown_face_locations) == 0:
-        return '''
-                <!doctype html>
-                <title>Error Page</title>
-                <h1>No face Detected on Image2</h1>
-                '''
+        result = {
+            "faces-match": face_match,
+            "error": "no face found",
+            "code": "500"
+        }
+        return jsonify(result)
     else:
         known_face_encodings = face_recognition.face_encodings(known_image, known_face_locations)[0]
         unknown_face_encodings = face_recognition.face_encodings(unknown_image, unknown_face_locations)
@@ -96,6 +98,8 @@ def process_images(file, file2):
             face_match = True
         # Return the result as json
         result = {
-            "Faces_Match": face_match
+            "faces-match": face_match,
+            "error": "",
+            "code": "200"
         }
         return jsonify(result)
