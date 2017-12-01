@@ -4,6 +4,7 @@ dlib==19.7.0
 face-recognition==1.0.0
 face-recognition-models==0.3.0
 Flask==0.12.2
+Flask-Cors==3.0.3
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
@@ -12,4 +13,5 @@ numpy==1.13.3
 olefile==0.44
 Pillow==4.3.0
 scipy==1.0.0
+six==1.11.0
 Werkzeug==0.12.2
