@@ -43,7 +43,7 @@ def allowed_file(filename):
 
 def process_images(file, file2):
 
-    face_match = False
+    _match = False
     known_image = face_recognition.load_image_file(file)
     unknown_image = face_recognition.load_image_file(file2)
     known_face_locations = face_recognition.face_locations(known_image)
@@ -51,14 +51,14 @@ def process_images(file, file2):
 
     if len(known_face_locations) == 0:
         result = {
-            "faces-match": face_match,
+            "facesMatch": _match,
             "error": "no face found",
             "code": "500"
         }
         return jsonify(result)
     elif len(unknown_face_locations) == 0:
         result = {
-            "faces-match": face_match,
+            "facesMatch": _match,
             "error": "no face found",
             "code": "500"
         }
@@ -68,10 +68,10 @@ def process_images(file, file2):
         unknown_face_encodings = face_recognition.face_encodings(unknown_image, unknown_face_locations)
         match = face_recognition.compare_faces([known_face_encodings], unknown_face_encodings[0], 0.50)
         if match[0]:
-            face_match = True
+            _match = True
         # Return the result as json
         result = {
-            "faces-match": face_match,
+            "facesMatch": _match,
             "error": "",
             "code": "200"
         }
