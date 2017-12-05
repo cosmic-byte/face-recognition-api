@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Blueprint
 import face_recognition
-from flask import request, redirect, jsonify
+from flask import request, redirect, jsonify, render_template
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
@@ -33,34 +33,7 @@ def compare():
         if file and allowed_file(file.filename) and allowed_file(file2.filename):
             return process_images(file, file2)
 
-    return '''
-    <!doctype html>
-    <title>Compare</title>
-    <head>
-        <style> 
-        #main {
-            width: 600px;
-            height: 300px;
-            border: 1px solid #c3c3c3;
-
-        }
-        #main div {
-            display: inline-block;
-            width: 400px;
-            margin: 20px;
-        }
-        #main b {
-            margin: 0 10px 0 0;
-        }
-        </style>
-    </head>
-    <h1>Upload Pictures to Compare</h1>
-    <form method=post enctype=multipart/form-data id=main>
-      <div><b>known image:</b><input type=file name=file1></div>
-      <div><b>unknown image:</b><input type=file name=file2></div>
-      <div><input type=submit value=process></div>
-    </form>
-    '''
+    return render_template("view.html")
 
 
 def allowed_file(filename):

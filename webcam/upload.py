@@ -1,12 +1,9 @@
-import os
 import face_recognition
 from flask import Flask, request, redirect, jsonify
 
-UPLOAD_FOLDER = os.path.abspath("images/")
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 3 * 1024 * 1024
 
 
