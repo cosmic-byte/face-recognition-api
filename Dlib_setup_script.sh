@@ -24,14 +24,14 @@ software-properties-common \
 zip \
 && sudo apt-get clean && sudo rm -rf /tmp/* /var/tmp/* \
 
-&& cd ~ && \
+ cd ~ && \
     mkdir -p dlib && \
     git clone -b 'v19.9' --single-branch https://github.com/davisking/dlib.git dlib/ && \
 cd dlib/build/ && \
-&& sudo cmake .. -DDLIB_USE_CUDA=0 -DUSE_AVX_INSTRUCTIONS=1 && cmake --build . \
+sudo cmake .. -DDLIB_USE_CUDA=0 -DUSE_AVX_INSTRUCTIONS=1 && cmake --build . \
 && cd .. \
 && sudo python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA \
 
 ### Install python boost engine
 
-&& sudo apt-get install libboost-all-dev
+sudo apt-get install libboost-all-dev
