@@ -27,8 +27,8 @@ zip \
  cd ~ && \
     mkdir -p dlib && \
     git clone -b 'v19.9' --single-branch https://github.com/davisking/dlib.git dlib/ && \
-cd dlib/build/ && \
-sudo cmake .. -DDLIB_USE_CUDA=0 -DUSE_AVX_INSTRUCTIONS=1 && cmake --build . \
+cd dlib/ && mkdir build && cd build/ && \
+sudo cmake .. -DDLIB_USE_CUDA=0 -DUSE_AVX_INSTRUCTIONS=1 && sudo cmake --build . \
 && cd .. \
 && sudo python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA \
 
