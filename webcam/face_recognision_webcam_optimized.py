@@ -94,6 +94,8 @@ while True:
     current_encoding_size = len(os.listdir(directory))
     if current_encoding_size != encoding_size:
         encoding_size = current_encoding_size
+        encodings[:] = []
+        names[:] = []
         process_encodings()
 
 # Release handle to the webcam
